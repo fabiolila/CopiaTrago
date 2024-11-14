@@ -271,7 +271,7 @@ button {
 }
 
 .categorydata {
-    text-align: center;
+    text-align: justify;
 }
 
 .categoryimg {
@@ -337,7 +337,10 @@ button {
 }
 
 .productsubtitle {
-    font-size: .75rem;
+    text-align: center;
+    color:tomato;
+    padding: 1rem;
+    font-size: .70rem;
     margin-bottom: .5rem;
 }
 
@@ -800,6 +803,7 @@ button {
         margin-bottom: 1.5rem;
     }
     .homedes {
+        text-align: justify;
         margin-bottom: 2.5rem;
         padding-right: 2rem;
     }
@@ -817,6 +821,7 @@ button {
         width: 350px;
     }
     .aboutdescription {
+        text-align: justify;
         padding-right: 2rem;
     }
     .productcontainer {
