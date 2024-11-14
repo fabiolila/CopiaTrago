@@ -165,7 +165,7 @@ button {
 
 /* Change background header */
 .scroll-header {
-  background: #F8115A;
+    background: linear-gradient(90deg, #e711a0 0%, #05f6fe 95%);
 }
 
 /* Active link */
@@ -319,7 +319,7 @@ button {
 
 .productcontent{
     position: relative;
-    background: #0738d8;
+    background: #e0f714;
     border-radius: 1rem;
     padding: 1.5rem 0 1rem 0;
     text-align: center;
@@ -343,7 +343,7 @@ button {
 
 .producttitle,
 .productprice {
-    color: #fff;
+    color: #d31b1b;
     font-weight: 500;
     font-size: .938rem;
 }
@@ -374,7 +374,7 @@ button {
 
 /*DESCUENTO*/
 .discountcontainer {
-    background: #000c32;
+    background: #f86e11;
     border-radius: 1rem;
     padding: 2.5rem 0 1.5rem;
     row-gap: .75rem;
@@ -407,7 +407,7 @@ button {
 
 .newcontent {
     position: relative;
-    background: #000c32;
+    background: #19DCEF;
     width: 242px;
     padding: 2rem 0 1.5rem 0;
     border-radius: .75rem;
