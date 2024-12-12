@@ -388,11 +388,6 @@ button {
     margin-bottom: 2rem;
 }
 
-.discountimg {
-    width: 200px;
-    justify-self: center;
-}
-
 /*NEW*/
 .newcontainer {
     padding-top: 1rem;
@@ -875,13 +870,6 @@ button {
 
 
 }
-#imagen-tenor {
-
-    width: 50px;
-  
-    height: 300px;
-  
-  }
 
   /* General Section Styling */
 .section.newsletter {
@@ -959,3 +947,10 @@ button {
         font-size: 14px;
     }
 }
+/*
+.centered {
+    
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+} no se usa, era para el gato :'v*/
