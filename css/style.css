@@ -103,10 +103,6 @@ button {
   font-family: '';
 }
 
-.navL-img {
-  width: 9.25rem;
-}
-
 .navLink,
 .navL,
 .navToggle,
@@ -319,7 +315,7 @@ button {
 
 .productcontent{
     position: relative;
-    background: #e0f714;
+    background: #dceb5c;
     border-radius: 1rem;
     padding: 1.5rem 0 1rem 0;
     text-align: center;
@@ -340,7 +336,7 @@ button {
     text-align: center;
     color:tomato;
     padding: 1rem;
-    font-size: .70rem;
+    
     margin-bottom: .5rem;
 }
 
@@ -878,4 +874,88 @@ button {
 
 
 
+}
+#imagen-tenor {
+
+    width: 50px;
+  
+    height: 300px;
+  
+  }
+
+  /* General Section Styling */
+.section.newsletter {
+    background-color: #01a1fd;
+    padding: 40px 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the Form */
+.section.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.section.newsletter form label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input Fields */
+.section.newsletter form input[type="text"],
+.section.newsletter form input[type="email"],
+.section.newsletter form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+/* Textarea */
+.section.newsletter form textarea {
+    resize: none;
+}
+
+/* Submit Button */
+.section.newsletter form input[type="submit"] {
+    background-color: #8c1dcc;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit Button Hover Effect */
+.section.newsletter form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .section.newsletter {
+        padding: 20px 10px;
+    }
+
+    .section.newsletter form input[type="text"],
+    .section.newsletter form input[type="email"],
+    .section.newsletter form textarea {
+        font-size: 12px;
+    }
+
+    .section.newsletter form input[type="submit"] {
+        font-size: 14px;
+    }
 }
