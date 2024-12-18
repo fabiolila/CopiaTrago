@@ -58,15 +58,15 @@ button {
 }
 
 .sectiontitle {
-  font-size: 2.25rem !important;
+  font-size: 2.25rem;
   margin-bottom: 2rem;
   text-align: center;
 }
 
 .container {
   max-width: 968px;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 0 auto;
+  margin-right: 0 1.5rem;
 }
 
 .grid {
@@ -100,7 +100,7 @@ button {
   align-items: center;
   column-gap: 0.5rem;
   font-weight: 500;
-  font-family: '';
+  font-weight: 500;
 }
 
 .navLink,
@@ -113,20 +113,6 @@ button {
 .navToggle {
   font-size: 1.25rem;
   cursor: pointer;
-}
-
-@media (max-width: 767px) {
-  .navM {
-    position: fixed;
-    width: 100%;
-    background: #ec8004;
-    top: -150%;
-    left: 0;
-    padding: 3.5rem 0;
-    transition: 0.4s;
-    z-index: 100;
-    border-radius: 0 0 1.5rem 1.5rem;
-  }
 }
 
 .navclose {
@@ -164,7 +150,7 @@ button {
     background: linear-gradient(90deg, #e711a0 0%, #05f6fe 95%);
 }
 
-/* Active link */
+/* Bolita de la nav bar*/
 .active-link {
   position: relative;
 }
@@ -198,16 +184,16 @@ button {
 
 .homeimg {
   height: 250px;
-  width: 100%;
+  width: auto;
   justify-self: center;
 }
 
 .hometitle {
   width: 95%;
-  font-size: 4rem;
+  font-size: 2.9rem; /*cambia el tamaño de VIVE UNA EXPERIENCIA*/
   font-weight: 900;
   line-height: 99%;
-  margin-bottom: 1rem;
+  margin: 10px
 }
 
 .homebut {
@@ -372,13 +358,11 @@ button {
     right: 0;
 }
 
-
-/*DESCUENTO*/
 .discountcontainer {
     background: #f86e11;
     border-radius: 1rem;
-    padding: 2.5rem 0 1.5rem;
-    row-gap: .75rem;
+    padding: 15px;
+    row-gap: 15px;
 }
 .discountdata {
     text-align: center;
@@ -386,8 +370,8 @@ button {
 }
 
 .discounttitle {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 /*NEW*/
@@ -422,79 +406,6 @@ button {
     border-radius: .25rem;
 }
 
-.newtitle {
-    font-size: .938rem;
-    font-weight: 500;
-}
-
-.newsubtitle {
-    display: block;
-    font-size: .813rem;
-    margin-bottom: .5rem;
-}
-
-.newprices {
-    display: inline-flex;
-    align-items: center;
-    margin-bottom: .5rem;
-}
-
-.newprice {
-    font-weight: 500;
-    color: #fff;
-}
-
-.newdiscount {
-    color: #3678ff;
-    font-size: .75rem;
-    text-decoration: line-through;
-    font-weight: 500;
-}
-
-.newbutton {
-    display: inline-flex;
-    padding: .5rem;
-    border-radius: .25rem .25rem .75rem .25rem;
-    position: absolute;
-    bottom: 0;
-    right: -3rem;
-}
-
-.newicon {
-    font-size: 1.25rem;
-}
-
-.newcontent:hover .newimg {
-    transform: translateY(-.5rem);
-}
-
-.newcontent:hover .newbutton {
-    right: 0;
-}
-
-
-/*NOTICIAS*/
-.newsld {
-    text-align: center;
-    margin-bottom: 1.5rem;
-}
-
-.newslf {
-    background: #3678ff;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    border-radius: .75rem;
-}
-
-
-.newslin {
-    width: 70%;
-    padding: 0 .5rem;
-    background: none;
-    color: #fff;
-}
-
 .button2 {
     display: inline-block;
     background: #0557fc;
@@ -505,81 +416,12 @@ button {
     transition: .3s;
 }
 
-.newslin::placeholder {
-    color: #fff;
-}
-
-/*FOOTER*/
-
-.footer {
-    position: relative;
-    overflow: hidden;
-}
-
-.footercontainer {
-    row-gap: 2rem;
-}
-
-.footerL {
-    display: flex;
-    align-items: center;
-    column-gap: .5rem;
-    margin-bottom: 1rem;
-    font-weight: 500;
-    color: #fff;
-}
-
-.footerL-img {
-    width: 20px;
-}
-
-.footerdescription {
-    margin-bottom: 2.5rem;
-}
-
-.footersocial {
-    display: flex;
-    column-gap: .75rem;
-}
-
-.footersocial-link {
-    display: inline-flex;
-    background: #000c32;
-    padding: .25rem;
-    border-radius: .25rem;
-    color: #fff;
-    font-size: 1rem;
-}
-
-.footersocial-link:hover {
-    background: #0557fc;
-}
-
-.footertitle {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-}
-
-.footerlinks {
-    display: grid;
-    row-gap: .35rem;
-}
-
-.footerlink {
-    font-size: .813rem;
-    color: #fff;
-    transition: .3s;
-}
-
-.footerlink:hover {
-    color: #fff;
-}
-
 .footercopy {
     display: block;
     text-align: center;
     font-size: .75rem;
     margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
 }
 
 /*scroll up */
@@ -622,8 +464,6 @@ button {
 }
 
 /*RESPONSIVE */
-
-
 @media (max-width: 320px) {
     .container {
         margin-left: 1rem;
@@ -646,25 +486,21 @@ button {
     
 }
 
-
-@media (min-width: 576px) {
-    .aboutcontainer {
-        grid-template-columns: .8fr;
-        justify-content: center;
+@media (max-width: 767px) {
+    .navM {
+      position: fixed;
+      width: 100%;
+      background: #ec8004;
+      top: -150%;
+      left: 0;
+      padding: 3.5rem 0;
+      transition: 0.4s;
+      z-index: 100;
+      border-radius: 0 0 1.5rem 1.5rem;
     }
+  }
 
-    .newslc{
-        display: grid;
-        grid-template-columns: .7fr;
-        justify-content: center;
-    }
-    .newsld {
-        padding: 0 3rem;
-    }
-
-}
-
-@media (min-width: 767px) {
+  @media (min-width: 767px) {
     body {
         margin: 0;
     }
@@ -726,12 +562,12 @@ button {
         justify-content: center;
         align-items: center;
         column-gap: 3rem;
-        padding: 3rem 0;
+        padding: 30px;
         border-radius: 3rem;
     }
 
     .discountimg {
-        width: 350px;
+        width: 250px;
         order: -1;
     }
 
@@ -750,6 +586,23 @@ button {
     }
 
     
+}
+
+@media (min-width: 576px) {
+    .aboutcontainer {
+        grid-template-columns: .8fr;
+        justify-content: center;
+    }
+
+    .newslc{
+        display: grid;
+        grid-template-columns: .7fr;
+        justify-content: center;
+    }
+    .newsld {
+        padding: 0 3rem;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -773,7 +626,6 @@ button {
     }
     .homeimg {
         height: 400px;
-        transform: translateY(-3rem);
     }
     .homeindicator {
         top: initial;
@@ -838,7 +690,7 @@ button {
     }
 
     .newimg {
-        width: 150px;
+        width: 100px;
     }
     .newimg,
     .newsubtitle {
@@ -858,15 +710,12 @@ button {
 @media (min-width: 1200px) {
 
     .homeimg {
-        height: 420px;   
+        height: 400px;   
     }
 
     .swiper-pagination {
         margin-top: 2.5rem;
     }
-
-
-
 }
 
   /* General Section Styling */
@@ -945,10 +794,3 @@ button {
         font-size: 14px;
     }
 }
-/*
-.centered {
-    
-    padding: 20px;
-    width: 100px;
-    height: 100px;
-} no se usa, era para el gato :'v*/
