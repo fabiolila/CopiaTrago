@@ -191,6 +191,11 @@ button {
   padding-top: 2rem;
 }
 
+.homedes {
+    width: 95%;
+    justify-self: center;
+}
+
 .homeimg {
   height: 250px;
   width: 100%;
@@ -198,9 +203,10 @@ button {
 }
 
 .hometitle {
+  width: 95%;
   font-size: 4rem;
   font-weight: 900;
-  line-height: 100%;
+  line-height: 99%;
   margin-bottom: 1rem;
 }
 
