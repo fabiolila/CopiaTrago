@@ -204,10 +204,6 @@ button {
   margin-bottom: 1rem;
 }
 
-.homedes {
-  margin-bottom: 1rem;
-}
-
 .homebut {
   display: flex;
 }
@@ -793,11 +789,7 @@ button {
     .hometitle {
         margin-bottom: 1.5rem;
     }
-    .homedes {
-        text-align: justify;
-        margin-bottom: 2.5rem;
-        padding-right: 2rem;
-    }
+
     .categorycontainer {
         column-gap: 8rem;
     }
